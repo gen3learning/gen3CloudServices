@@ -127,8 +127,10 @@ get_prefix_objects_response
  download a file from s3 to local
  </td>
  <td>
- bucket_name - Bucket Name where the file that needs to be downloaded exist
- prefix_name - Full Prefix path where to download file exists
+     <ul>
+ <li>bucket_name - Bucket Name where the file that needs to be downloaded exist
+ <li>prefix_name - Full Prefix path where to download file exists
+     </ul>
  </td>
   <td>
  download_object_response
@@ -146,10 +148,12 @@ get_prefix_objects_response
  upload a local file to given bucket & prefix in S3
  </td>
  <td>
- bucket_name - Bucket Name where the file needs to be uploaded
- prefix_name - Full Prefix path where to upload the file
- local_file_name - Name of the local file that you need to upload
- delete_flag - True or False to delete the local file from the local computer
+ <ul>
+     <li>bucket_name - Bucket Name where the file needs to be uploaded
+ <li>prefix_name - Full Prefix path where to upload the file
+ <li>local_file_name - Name of the local file that you need to upload
+ <li>delete_flag - True or False to delete the local file from the local computer
+     </ul>
  </td>
   <td>
  upload_object_response
@@ -169,9 +173,11 @@ get_prefix_objects_response
  Reads the data in the given S3 file
  </td>
  <td>
- bucket_name - Bucket Name where the file that needs to be read exist
- prefix_name - Full path of the file to read
- file_type - any one of the following based on the file type - [csv, text, txt, json, parquet]
+     <ul>
+ <li>bucket_name - Bucket Name where the file that needs to be read exist
+ <li>prefix_name - Full path of the file to read
+ <li>file_type - any one of the following based on the file type - [csv, text, txt, json, parquet]
+    </ul>
  </td>
   <td>
  read_s3_file_response
